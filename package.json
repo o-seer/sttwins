@@ -37,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/debounce": "^1.2.0",
+    "@types/jquery": "^3.5.1"
   }
 }
