@@ -102,7 +102,7 @@ span:last-child {
 h2 {
   font-weight: bold;
   font-size: 18px;
-  padding: 30px 0 0 0;
+  padding: 10px 0 0 0;
   margin: 0;
   border-bottom: 4px solid white;
 }
@@ -133,5 +133,11 @@ a.dropdown-item, button.dropdown-item {
 @media only screen and (min-width: 700px) {
     .addresses {
         column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .addresses {
+        column-count: 3;
     }
 }
