@@ -4,7 +4,7 @@ import {Category} from '../../types'
 
 function ResultsBlock({ header, content }: Category): ReactElement {
 
-    const headerHtml = header ? <h1>{header}</h1> : null;
+    const headerHtml = header ? <h2>{header}</h2> : null;
 
     const addressesHtml = content.map(entry => {
         return (
