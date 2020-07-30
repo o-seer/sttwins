@@ -1,0 +1,8 @@
+{
+  "short_name": "sttwins_search",
+  "name": "Saint Twins game with search",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
