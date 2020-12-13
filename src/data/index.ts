@@ -17,8 +17,9 @@ export function filter(data: Category[], query: string): Category[] {
         const matchingEntries = category.content.filter(entry => {
             const title = entry.title.toLowerCase();
             const address = entry.address.toLowerCase().replace('-', '');
+            const categoryName = category.header.toLowerCase();
 
-            return title.includes(query) || address.includes(query);
+            return title.includes(query) || address.includes(query) || categoryName.includes(query);
         });
 
         if (matchingEntries.length > 0)
